@@ -42,7 +42,7 @@ class ApiRequest {
   }) async {
     final api = ApiClient(
         tempUrl: enableTempUrl != null
-            ? 'http://api.nytimes.com/svc/mostpopular/v2/'
+            ? 'https://newsapi.org/v2/'
             : null);
 
     late Response response;
